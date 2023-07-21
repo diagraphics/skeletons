@@ -1,0 +1,10 @@
+{
+  "name": "@diagraphics/skeletons",
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "skel/*"
+  ],
+  "dependencies": {
+    "require-resolve-cli": "^1.0.0"
+  }
+}

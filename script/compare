@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+SKEL_DIFF_CMD=${SKEL_DIFF_CMD:-"bcomp"}
+
+skel=$1
+target=$2
+
+skel_dir=$(yarn workspace $skel exec pwd)
+
+$SKEL_DIFF_CMD $skel_dir $target
